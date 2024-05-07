@@ -1,0 +1,51 @@
+{
+    "id": "dsek1",
+    "title": [
+      {
+        "lang": "de",
+        "value": "Deutsch Sek I"
+      }
+    ],
+    "csv_delimiter": ",",
+    "base": "https://w3id.org/iqb/v88",
+    "outDir": "./",
+    "idPattern": "^[abcdefghprqstuvxyz]{1}[2345679]{1}[abcdefghprqstuvxyz]{1}$",
+    "creator": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
+    "vocabularies": [
+      {
+        "id": "tt",
+        "title": [
+          {
+            "lang": "de",
+            "value": "Texttyp"
+          }
+        ],
+        "filenameSource": "tt_Texttyp.csv",
+        "filenameTarget": "tt_Texttyp.ttl",
+        "description": [
+          {
+            "lang": "de",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "id": "dv",
+        "title": [
+          {
+            "lang": "de",
+            "value":  "Deutsch Variante"
+          }
+        ],
+        "filenameSource": "dv_Variante.csv",
+        "filenameTarget": "dv_Variante.ttl",
+        "description": [
+          {
+            "lang": "de",
+            "value": ""
+          }
+        ]
+      }
+    ]
+  }
+  
