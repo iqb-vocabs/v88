@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/iqb-vocabs/v88#readme",
   "devDependencies": {
-    "@iqb/csv2ttl": "^0.7.4"
+    "@iqb/csv2ttl": "^0.7.8"
   }
 }

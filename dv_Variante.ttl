@@ -1,5 +1,6 @@
 @prefix dct: <http://purl.org/dc/terms/>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix n0: <https://w3id.org/iqb/v88/dv/>. 
 @prefix n1: <https://w3id.org/iqb/v88/dv/>. 
 
@@ -43,6 +44,8 @@ n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
 	dct:title "Deutsch Sek I - Deutsch Variante"@de;
+	dc:title "Deutsch Sek I - Deutsch Variante"@de;
+	dc:description "Deutsch Sek I - Deutsch Variante"@de;
 	skos:hasTopConcept
 		n1:d3b,
 		n1:q4y,
